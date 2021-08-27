@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.CardDetailActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/cardActivityToolBar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/splash_background"
+        app:titleTextColor="@android:color/white"
+        />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="@dimen/overAllMargin"
+        android:padding="@dimen/radius"
+        android:layout_margin="@dimen/radius">
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/cardNameTextField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/radius"
+                app:helperText="@string/hint_card_name">
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/cardNameEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    />
+            </com.google.android.material.textfield.TextInputLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="@dimen/radius"
+        android:layout_margin="@dimen/radius">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_margin="@dimen/adapter_margin"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/selectColorTextField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/radius"
+                app:helperText="@string/label_color">
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/selectColorEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rectangular_shapes"
+                    android:textStyle="bold"
+                    android:padding="@dimen/radius"
+                    android:textSize="@dimen/nav_user_text_size"
+                    android:text="@string/select_color"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/selectMemberTextField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/radius"
+                app:helperText="@string/members">
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/selectMemberEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rectangular_shapes"
+                    android:textStyle="bold"
+                    android:padding="@dimen/radius"
+                    android:textSize="@dimen/nav_user_text_size"
+                    android:text="@string/select_member"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/memberListRecyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/radius"
+                android:visibility="gone"/>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/selectDueDateTextField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/radius"
+                app:helperText="@string/due_date">
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/selectDueDateEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rectangular_shapes"
+                    android:textStyle="bold"
+                    android:padding="@dimen/radius"
+                    android:textSize="@dimen/nav_user_text_size"
+                    android:text="@string/select_due_date"/>
+            </com.google.android.material.textfield.TextInputLayout>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/updateCardDetailButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_margin="@dimen/radius"
+                android:textColor="@android:color/white"
+                android:background="@drawable/sign_jn_button"
+                android:textSize="@dimen/nav_user_text_size"
+                android:text="@string/update" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
+

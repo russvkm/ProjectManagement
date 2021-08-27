@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_background"
+    android:layout_width="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/nav_user_text_size"
+        android:padding="@dimen/radius"
+        android:text="@string/search_members"
+        android:textStyle="bold"
+        android:layout_marginBottom="@dimen/task_item_cv_margin"
+        android:textColor="@android:color/black"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/adapter_padding"
+        android:background="@color/splash_background"
+        android:layout_marginBottom="@dimen/bottom_dialog_margin"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/searchEmailEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/bottom_dialog_margin"
+        android:hint="@string/email"
+        android:padding="@dimen/radius"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/addMember"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/adapter_margin"
+            android:text="@string/add"
+            android:textColor="@color/splash_background"
+            android:gravity="center" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/cancelMember"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/adapter_margin"
+            android:text="@string/cancel"
+            android:textColor="@android:color/darker_gray"
+            android:gravity="center" />
+    </LinearLayout>
+
+</LinearLayout>
+
+</androidx.cardview.widget.CardView>

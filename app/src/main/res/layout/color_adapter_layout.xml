@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <View
+        android:id="@+id/mainColorView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/splash_background"
+        android:layout_margin="@dimen/adapter_margin"
+        android:foreground="?attr/selectableItemBackground"/>
+    <ImageView
+        android:id="@+id/selectColorIndicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/select_button"
+        android:layout_marginEnd="@dimen/radius"
+        android:layout_gravity="end|center_vertical"
+        android:visibility="gone"
+        tools:visibility="visible"
+        android:contentDescription="@string/action_add_card" />
+
+</FrameLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3b6978</color>
+    <color name="colorPrimaryDark">#204051</color>
+    <color name="colorAccent">#6a097d</color>
+    <color name="splash_background">#077AF6</color>
+    <color name="credential">#3BBEFA</color>
+    <color name="primary_text_color">#363A43</color>
+    <color name="divider_color">#EAEAEA</color>
+    <color name="snack_bar_color">#F61E02</color>
+    <color name="colorful_plus_border">#4872FF</color>
+
+
+    <color name="task_list_action_color">#F7F6FA</color>
+    <color name="task_list_title_view_bg_color">#F8F8F8</color>
+    <!--e7dfd5  84a9ac 3b6978  #204051
+    #FFE2BC #FFB367 #FFE277 #58B4AE-->
+</resources>

@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Project Management</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_in">Sign In</string>
+    <string name="let_s_get_started">Let\'s Get Started</string>
+    <string name="description">Collaborate And Plan Together Across Multiple Devices On Project Management\'s Minimalist Interface</string>
+    <string name="enter_info">Enter Your Name Email and Password to Register With us</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="c_password">Confirm Password</string>
+    <string name="enter_info_log_in">Enter Your Email and Password to Log In</string>
+    <string name="pls_wait">Please Wait</string>
+    <string name="userName">Username</string>
+    <string name="profile_name">My Profile</string>
+    <string name="signout">Signout</string>
+    <string name="phone">Phone</string>
+    <string name="update">Update</string>
+    <string name="create_board">Create Board</string>
+    <string name="board_name">Board Name</string>
+    <string name="image_contentDescription">image</string>
+    <string name="created_by">Created By</string>
+
+
+    <string name="action_add_list">Add List</string>
+    <string name="hint_list_name">List Name</string>
+    <string name="action_add_card">Add Card</string>
+    <string name="hint_card_name">Card Name</string>
+    <string name="add_list">Add List</string>
+    <string name="member">Member</string>
+    <string name="add_member">Add Member</string>
+    <string name="search_members">Search Members</string>
+    <string name="add">ADD</string>
+    <string name="cancel">Cancel</string>
+    <string name="label_color">Label Color</string>
+    <string name="select_color">Select Color</string>
+    <string name="members">Members</string>
+    <string name="select_member">Select Member</string>
+    <string name="due_date">Due Date</string>
+    <string name="select_due_date">Select Due Date</string>
+    <string name="delete">Delete</string>
+    <string name="default_notification_channel_id">Notification channel id</string>
+</resources>

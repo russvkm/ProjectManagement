@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "457911612100",
+    "firebase_url": "https://projectmanagement-bccdc.firebaseio.com",
+    "project_id": "projectmanagement-bccdc",
+    "storage_bucket": "projectmanagement-bccdc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:457911612100:android:b4002b731ee7bf8afc0f91",
+        "android_client_info": {
+          "package_name": "com.russvkm.projectmanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "457911612100-log3lo55n57d38v41gg2jfscapten81q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.russvkm.projectmanagement",
+            "certificate_hash": "8097bd0b71986eecaac42362db8bba4fea44a4ba"
+          }
+        },
+        {
+          "client_id": "457911612100-f1k7ot7su4ngchnf7l8bmq8tqooeifpi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9ZoToGenSPEHu_r4OyoRNFLlDPEF79XE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "457911612100-f1k7ot7su4ngchnf7l8bmq8tqooeifpi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
